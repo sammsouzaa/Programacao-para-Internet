@@ -21,29 +21,50 @@ a{
     color: inherit;
 }
 
+p{
+    
+    font-size: 25px;
+}
 h1{
     color: #6096B4;
-    font-size: 40px;
-}
-h2{
-    color: #6096B4;
-    font-size: 30px;
+    font-size:50px;
 }
 
 button{
     padding: 10px 15px;
+    border: 0;
     border-radius: 8px;
     background: #93BFCF;
     font-size: 15px;
 }
 
 header{
-    background:no-repeat center/cover url(assets/montefuji.jpg);
+    background:no-repeat center/cover url(assets/omgfuji.jpg);
     height: calc(100vh - 0px);
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;  
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+.header-content {
+
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
 }
